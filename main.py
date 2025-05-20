@@ -16,8 +16,10 @@ def multiply(x, y):
 
 #Need to define divide function.
 def divide (x,y):
-    print x/y
-    return x/y
+    if y == 0: print ("Can't divide by zero")
+    else: 
+        print x/y
+        return x/y
 
 print("Calculator started.")
 
